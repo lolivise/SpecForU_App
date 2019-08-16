@@ -10,7 +10,7 @@ In the future, users can make friends with other users or broadcast a invatation
 3. User profile interface
 4. Firebase data format setup
 
-# Currently working on...
+# Next goals
 1. Function for tracking users' location
 2. Function for tracking shops' location
 3. Function for finding the resturants near by users
