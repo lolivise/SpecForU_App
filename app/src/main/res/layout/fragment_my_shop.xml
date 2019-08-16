@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".mainpagefragments.MyShopFragment">
+
+    <Spinner
+        android:id="@+id/shop_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/btn_manage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/manage"
+                android:scaleType="fitCenter"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageButton
+                android:id="@+id/btn_upload"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/upload"
+                android:scaleType="fitCenter"
+                tools:ignore="VectorDrawableCompat" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/btn_analysing"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/analysis"
+                android:scaleType="fitCenter"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageButton
+                android:id="@+id/btn_billing"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/billing"
+                android:scaleType="fitCenter"
+                tools:ignore="VectorDrawableCompat" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_new_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="new shop" />
+
+</RelativeLayout>

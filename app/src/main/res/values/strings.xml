@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">SpecForU</string>
+    <string name="title_activity_main_page">MainPageActivity</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Navigate Button-->
+    <string name="title_search">Search</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_friend">Friend</string>
+    <string name="title_myshop">MyShop</string>
+    <string name="title_more">More</string>
+
+
+    <!-- For Login Activity-->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forget_password">forget password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!--for Shop Detail-->
+    <string name="profile_title">Shop Detail</string>
+    <string name="shop_name">Shop Name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone Number</string>
+    <string name="number">No.</string>
+    <string name="street">street</string>
+    <string name="suburb">Suburb</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="website">Website(optional)</string>
+    <string name="facebook">Facebook(optional)</string>
+    <string name="instagram">Instagram(optional)</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+
+    <!--Set up Bank Detail-->
+    <string name="bank_detail">Banking Detail</string>
+    <string name="card_holder">Name of Holder: </string>
+    <string name="credit_card">Credit Card Number: </string>
+    <string name="expire_date">Expired Date: </string>
+    <string name="month">mm</string>
+    <string name="year"> yy</string>
+    <string name="slash">\/</string>
+    <string name="csv_code">CSV: </string>
+
+    <!-- For Shop Registration -->
+    <string name="adjust">Adjust</string>
+    <string name="save">Save</string>
+    <string name="confirm">Confirm</string>
+
+
+</resources>
