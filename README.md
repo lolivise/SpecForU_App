@@ -1,7 +1,7 @@
 # SpecForU_App
 
 Purpose of building this app is for self practice. 
-The app is designed to provide discount infomation from the resturant which surround the users. 
+The app is designed to provide discount infomation of the resturants which surround every user. 
 In the future, users can make friends with other users or broadcast a invatation of having meals with people surround them.
 
 Currently jobs which are down.
